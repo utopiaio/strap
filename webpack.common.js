@@ -9,6 +9,7 @@ module.exports = {
   },
   output: {
     filename: '[name].[hash].js',
+    chunkFilename: '[name].[hash].chunk.js',
     path: path.resolve(__dirname, 'build'),
   },
   resolve: {
@@ -28,24 +29,6 @@ module.exports = {
       },
     }),
   ],
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        vendor: {
-          chunks: 'all',
-          test: path.resolve(__dirname, 'node_modules'),
-          name: 'vendor',
-          enforce: true,
-        },
-        styles: {
-          name: 'styles',
-          test: /\.css$/,
-          chunks: 'all',
-          enforce: true,
-        },
-      },
-    },
-  },
   module: {
     rules: [
       // js[x]

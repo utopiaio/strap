@@ -1,3 +1,4 @@
+const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 
@@ -28,7 +29,8 @@ module.exports = merge(common, {
     ],
   },
   devServer: {
-    contentBase: './build',
+    contentBase: path.join(__dirname, 'build'),
     hot: true,
+    historyApiFallback: true,
   },
 });
