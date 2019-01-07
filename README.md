@@ -1,2 +1,2 @@
 # Da Strap
-Opinionated configurations for my setup
+Opinionated Configurations for My Setup
