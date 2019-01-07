@@ -1,7 +1,7 @@
 const path = require('path');
-
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
   entry: {
@@ -31,11 +31,25 @@ module.exports = {
   ],
   module: {
     rules: [
-      // js[x]
+      // jsx?
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: { loader: 'babel-loader' },
+      },
+
+      // css
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              minimize: true,
+            },
+          },
+        ],
       },
 
       // font + images

@@ -4,6 +4,7 @@ const merge = require('webpack-merge');
 
 const common = require('./webpack.common.js');
 
+
 module.exports = merge(common, {
   mode: 'development',
   devtool: 'eval',
@@ -11,23 +12,6 @@ module.exports = merge(common, {
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
   ],
-  module: {
-    rules: [
-      // css
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              minimize: true,
-            },
-          },
-        ],
-      },
-    ],
-  },
   devServer: {
     contentBase: path.join(__dirname, 'build'),
     hot: true,
