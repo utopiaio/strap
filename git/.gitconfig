@@ -1,0 +1,5 @@
+[user]
+	name = Eyassu
+	email = utopiaio@icloud.com
+[core]
+	excludesfile = /Users/utopiaio/.gitignore
