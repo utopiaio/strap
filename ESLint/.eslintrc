@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "react/no-typos": "off",
+    "no-underscore-dangle": "off",
+    "no-confusing-arrow": "off",
+    "react-hooks/rules-of-hooks": "error"
+  }
+}
