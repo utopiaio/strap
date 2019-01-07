@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import { $1 } from '@app/redux/constant/$2';
+
+function $3(payload) {
+  return {
+    type: $1,
+    payload,
+  };
+}
+
+module.exports = {
+  $3,
+};
+]]></content>
+  <tabTrigger>rxa</tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux Action</description>
+</snippet>

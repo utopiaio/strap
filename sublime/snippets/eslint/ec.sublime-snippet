@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+/* eslint no-console: off */
+]]></content>
+  <tabTrigger>ec</tabTrigger>
+  <scope>source.js</scope>
+  <description>Disable `no-console` rule</description>
+</snippet>

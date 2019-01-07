@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+import { $1 } from '@app/redux/constant/$2';
+
+function $3(state = ${4:null}, action) {
+  switch (action.type) {
+    case $1:
+      return action.payload;
+
+    default:
+      return state;
+  }
+}
+
+module.exports = $3;
+]]></content>
+  <tabTrigger>rxr</tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux Action</description>
+</snippet>

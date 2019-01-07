@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+const $1 = ({ $2 }) => ($3);
+
+$1.propTypes = {
+};
+
+$1.defaultProps = {
+};
+
+module.exports = $1;
+]]></content>
+  <tabTrigger>rsc</tabTrigger>
+  <scope>source.js</scope>
+  <description>React Stateless Component</description>
+</snippet>

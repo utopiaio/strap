@@ -1,0 +1,41 @@
+{
+  "always_show_minimap_viewport": true,
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+  "copy_with_empty_selection": false,
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Fira Code Retina",
+  "font_size": 10,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "index_files": false,
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "match_brackets": false,
+  "match_brackets_angle": false,
+  "match_brackets_braces": false,
+  "match_brackets_content": false,
+  "match_brackets_square": false,
+  "match_tags": false,
+  "remember_full_screen": false,
+  "rulers":
+  [
+    80,
+    100
+  ],
+  "save_on_focus_lost": true,
+  "show_definitions": false,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
+}

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.setState((prevState, props) => ({
+  $1
+}));
+]]></content>
+  <tabTrigger>rss</tabTrigger>
+  <scope>source.js</scope>
+  <description>setState</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1.getDerivedStateFromProps = (nextProps, previousState) => {
+  $2
+};
+]]></content>
+  <tabTrigger>gdsfp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Get Derived State From Props</description>
+</snippet>
